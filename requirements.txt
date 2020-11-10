@@ -1,0 +1,89 @@
+The requirements for this game to be installed and working are the following:
+
+
+
+Package                 Version
+
+----------------------- -------
+
+anaconda-client         1.7.2
+
+anaconda-navigator      1.9.12
+
+anaconda-project        0.8.3
+
+conda                   4.9.0
+
+conda-build             3.18.11
+
+conda-package-handling  1.7.2
+
+conda-verify            3.4.2
+
+gmpy2                   2.0.8
+
+ipython                 7.18.1
+
+ipykernel               5.3.4
+
+ipython-genutils        0.2.0
+
+ipywidgets              7.5.1
+
+numpy                   1.18.1
+
+pygame                  1.9.6
+
+spyder                  4.0.1
+
+spyder-kernels          1.8.1
+
+
+
+
+
+use command "pip list" or "pip list | grep ___ " to ensure you have these packages and corresponding versions installed on your machine.
+
+
+
+Once done, use the following commands to successfully install required software onto your machine.
+
+
+
+Windows:
+
+If using windows, go online and donwload the Anaconda installer directly from the website, run it and follow the instructions all the way through.
+
+
+
+Linux:
+
+If using Linux, go online and download the Anaconda installer for Linux directly from the website, run it and follow the instructions all the way through.
+
+After, open the terminal and run the following code:
+
+- bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh (for Python 3.7 which is advised in this case)
+
+Again, follow through the instructions until it has been successfully installed, when prompted if "you wish the installer to initialise Anaconda3 by running conda init?" choose "yes" and continue.
+
+
+
+* When Anaconda has successfully been installed, you can open up the navigator and search for "Spyder", when you have found it, install the latest version of it onto your machine.
+
+
+
+When finished, open up the anaconda3 terminal and run the following code:
+
+- pip --version                                              # to check the version of pip you are using
+
+- pip install pygame                                         # to install the pygame module
+
+- pip install numpy                                          # to install the numpy module
+
+- conda update anaconda                                      # to ensure you have the latest working version of Anaconda
+
+- conda update spyder / pip install --upgrade spyder         # to ensure you have the latest working version of Spyder
+
+
+
+Once all commands have been run successfully, try using the command " pip list" to ensure you have all the packages listed at the start of this document. Versions may vary as newer versions may be released after the writing of this document.
